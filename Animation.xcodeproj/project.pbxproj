@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5A85C7381CB4A491001F46FA /* IMG_2112.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 5A85C7321CB4A491001F46FA /* IMG_2112.PNG */; };
+		5A85C7391CB4A491001F46FA /* profile_btn_like@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A85C7331CB4A491001F46FA /* profile_btn_like@2x.png */; };
+		5A85C73A1CB4A491001F46FA /* profile_btn_unlike@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A85C7341CB4A491001F46FA /* profile_btn_unlike@2x.png */; };
+		5A85C73B1CB4A491001F46FA /* Settings_00208@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A85C7351CB4A491001F46FA /* Settings_00208@3x.png */; };
+		5A85C73C1CB4A491001F46FA /* twitter logo mask.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A85C7361CB4A491001F46FA /* twitter logo mask.png */; };
+		5A85C73D1CB4A491001F46FA /* twitterscreen.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A85C7371CB4A491001F46FA /* twitterscreen.png */; };
 		5AB082ED1CA37B770003DF62 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AB082EC1CA37B770003DF62 /* main.m */; };
 		5AB082F01CA37B770003DF62 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AB082EF1CA37B770003DF62 /* AppDelegate.m */; };
 		5AB082F31CA37B770003DF62 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AB082F21CA37B770003DF62 /* ViewController.m */; };
@@ -35,6 +41,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5A85C7321CB4A491001F46FA /* IMG_2112.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IMG_2112.PNG; sourceTree = "<group>"; };
+		5A85C7331CB4A491001F46FA /* profile_btn_like@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "profile_btn_like@2x.png"; sourceTree = "<group>"; };
+		5A85C7341CB4A491001F46FA /* profile_btn_unlike@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "profile_btn_unlike@2x.png"; sourceTree = "<group>"; };
+		5A85C7351CB4A491001F46FA /* Settings_00208@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Settings_00208@3x.png"; sourceTree = "<group>"; };
+		5A85C7361CB4A491001F46FA /* twitter logo mask.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "twitter logo mask.png"; sourceTree = "<group>"; };
+		5A85C7371CB4A491001F46FA /* twitterscreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = twitterscreen.png; sourceTree = "<group>"; };
 		5AB082E81CA37B770003DF62 /* Animation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Animation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5AB082EC1CA37B770003DF62 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		5AB082EE1CA37B770003DF62 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -101,6 +113,12 @@
 		5AB082EA1CA37B770003DF62 /* Animation */ = {
 			isa = PBXGroup;
 			children = (
+				5A85C7321CB4A491001F46FA /* IMG_2112.PNG */,
+				5A85C7331CB4A491001F46FA /* profile_btn_like@2x.png */,
+				5A85C7341CB4A491001F46FA /* profile_btn_unlike@2x.png */,
+				5A85C7351CB4A491001F46FA /* Settings_00208@3x.png */,
+				5A85C7361CB4A491001F46FA /* twitter logo mask.png */,
+				5A85C7371CB4A491001F46FA /* twitterscreen.png */,
 				5AB082EE1CA37B770003DF62 /* AppDelegate.h */,
 				5AB082EF1CA37B770003DF62 /* AppDelegate.m */,
 				5AB082F11CA37B770003DF62 /* ViewController.h */,
@@ -243,9 +261,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5A85C73C1CB4A491001F46FA /* twitter logo mask.png in Resources */,
 				5AB082FB1CA37B780003DF62 /* LaunchScreen.storyboard in Resources */,
+				5A85C73A1CB4A491001F46FA /* profile_btn_unlike@2x.png in Resources */,
+				5A85C73B1CB4A491001F46FA /* Settings_00208@3x.png in Resources */,
+				5A85C7381CB4A491001F46FA /* IMG_2112.PNG in Resources */,
+				5A85C73D1CB4A491001F46FA /* twitterscreen.png in Resources */,
 				5AB082F81CA37B770003DF62 /* Assets.xcassets in Resources */,
 				5AB082F61CA37B770003DF62 /* Main.storyboard in Resources */,
+				5A85C7391CB4A491001F46FA /* profile_btn_like@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -498,6 +522,7 @@
 				5AB083171CA37B7C0003DF62 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5AB083181CA37B7C0003DF62 /* Build configuration list for PBXNativeTarget "AnimationTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +531,7 @@
 				5AB0831A1CA37B7C0003DF62 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5AB0831B1CA37B7C0003DF62 /* Build configuration list for PBXNativeTarget "AnimationUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +540,7 @@
 				5AB0831D1CA37B7C0003DF62 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
